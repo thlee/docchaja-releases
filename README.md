@@ -1,0 +1,33 @@
+# 닥차자 (DocChaJa) — 공개 배포
+
+HWP·HWPX·PDF·DOCX·PPTX·XLSX 문서의 내용을 검색하는 Windows 프로그램입니다.
+
+**[홈페이지](https://thlee.github.io/docchaja/) · [2.0 베타 다운로드](https://github.com/thlee/docchaja-releases/releases/tag/v2.0.0-beta.1) · [사용법](https://thlee.github.io/docchaja/guide.html) · [문의·오류 신고](https://github.com/thlee/docchaja-releases/issues)**
+
+## 설치
+
+1. 릴리즈에서 `DocChaJa-Setup-2.0.0-beta-x64.exe`를 받습니다.
+2. 설치 파일을 실행하고 사용 조건에 동의한 뒤 설치합니다.
+3. 시작 메뉴에서 **닥차자 (DocChaJa)**를 실행합니다.
+4. 문서 폴더를 추가하고 인덱싱을 시작한 뒤 키워드로 검색합니다.
+
+- Windows 10/11 x64용. Python·한/글·Office를 별도로 설치하지 않아도 내용 검색이 가능합니다.
+- 2.0 베타는 기존 UI·CPU 전용입니다. GPU 가속·새 UI는 포함하지 않습니다.
+- 의미 검색 모델은 포함하지 않습니다. [모델 가져오기](https://thlee.github.io/docchaja/guide.html#models)를 참고하세요.
+- 원본 문서를 여는 프로그램은 별도로 필요합니다. 이미지 전용 PDF의 OCR은 제공하지 않습니다.
+- 설치·제거 전에 파일 메뉴에서 앱을 완전히 종료하세요. 제거 시 원본 문서·설정·색인·가져온 모델은 보존됩니다.
+- 현재 설치 파일은 코드 서명되지 않았습니다. 릴리즈의 SHA-256을 확인할 수 있습니다.
+
+## 이 저장소의 역할
+
+설치 파일, 한국어 사용 안내, 변경 내역, 오류 신고를 위한 공개 배포 저장소입니다. 앱 개발 소스는 포함하지 않습니다. GitHub가 자동 생성하는 `Source code (zip/tar.gz)`는 이 배포 저장소의 문서이며 앱 설치 파일이 아닙니다.
+
+2.0 베타의 기준 소스는 `06e5f60a6a37c26d6aed99ae53f9d708d7eaeadb`입니다. 공개 배포를 위해 도움말·설치 안내·지원 링크·모델 이용 조건 안내 문구와 개발자·저작권자 표기를 갱신했습니다. 검색 코어와 UI 동작은 기준 버전을 유지합니다.
+
+[소프트웨어 사용 조건](LICENSE.txt)을 확인하세요. 개인·업무·교육 목적의 사용을 허용하며 오픈소스 배포가 아닙니다. 외부 구성요소의 라이선스는 별도로 적용됩니다.
+
+## 오류 신고
+
+Windows 버전, 앱 버전, 재현 순서, 기대 동작과 실제 동작을 알려 주세요. 로그나 화면을 올리기 전에 문서 내용·개인정보·민감한 경로를 제거해 주세요.
+
+개발자·저작권자: **DocChaJa** · 연락처: [docchaja@naver.com](mailto:docchaja@naver.com)
